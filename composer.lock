@@ -1,0 +1,154 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4c222c96ec61f4d6f3c3db712a1bcb25",
+    "packages": [
+        {
+            "name": "hco/phar-installer-plugin",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hco/phar-installer-plugin.git",
+                "reference": "0cce490d93133abfc738a3120d5fe23b2f2ae494"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hco/phar-installer-plugin/zipball/0cce490d93133abfc738a3120d5fe23b2f2ae494",
+                "reference": "0cce490d93133abfc738a3120d5fe23b2f2ae494",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "hco\\ComposerPharInstaller\\PharInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "hco\\ComposerPharInstaller\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2014-09-22 16:44:39"
+        },
+        {
+            "name": "toolphar/pdepend",
+            "version": "2.0.1",
+            "dist": {
+                "type": "file",
+                "url": "http://static.pdepend.org/php/2.0.1/pdepend.phar",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "hco/phar-installer-plugin": "*"
+            },
+            "type": "toolphar",
+            "extra": {
+                "bin-name": "pdepend"
+            }
+        },
+        {
+            "name": "toolphar/phpab",
+            "version": "1.14.2",
+            "dist": {
+                "type": "file",
+                "url": "http://phpab.net/phpab-1.14.2.phar",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "hco/phar-installer-plugin": "*"
+            },
+            "type": "toolphar",
+            "extra": {
+                "bin-name": "phpab"
+            }
+        },
+        {
+            "name": "toolphar/phpcpd",
+            "version": "2.0.1",
+            "dist": {
+                "type": "file",
+                "url": "https://phar.phpunit.de/phpcpd-2.0.1.phar",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "hco/phar-installer-plugin": "*"
+            },
+            "type": "toolphar",
+            "extra": {
+                "bin-name": "phpcpd"
+            }
+        },
+        {
+            "name": "toolphar/phploc",
+            "version": "2.0.6",
+            "dist": {
+                "type": "file",
+                "url": "https://phar.phpunit.de/phploc-2.0.6.phar",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "hco/phar-installer-plugin": "*"
+            },
+            "type": "toolphar",
+            "extra": {
+                "bin-name": "phploc"
+            }
+        },
+        {
+            "name": "toolphar/phpmd",
+            "version": "2.1.1",
+            "dist": {
+                "type": "file",
+                "url": "http://static.phpmd.org/php/2.1.1/phpmd.phar",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "hco/phar-installer-plugin": "*"
+            },
+            "type": "toolphar",
+            "extra": {
+                "bin-name": "phpmd"
+            }
+        },
+        {
+            "name": "toolphar/phpunit",
+            "version": "3.7.37",
+            "dist": {
+                "type": "file",
+                "url": "https://phar.phpunit.de/phpunit-3.7.37.phar",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "hco/phar-installer-plugin": "*"
+            },
+            "type": "toolphar",
+            "extra": {
+                "bin-name": "phpunit"
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}

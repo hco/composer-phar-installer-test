@@ -1,0 +1,17 @@
+{
+    "name": "hco/composer-phar-installer-test",
+    "require": {
+        "toolphar/pdepend": "2.0.1",
+        "toolphar/phpcpd": "2.0.1",
+        "toolphar/phploc": "2.0.6",
+        "toolphar/phpmd": "2.1.1",
+        "toolphar/phpunit": "3.7.37",
+        "toolphar/phpab": "1.14.2"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://toolphar.org/"
+        }
+    ]
+}
